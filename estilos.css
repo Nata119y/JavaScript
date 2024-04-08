@@ -1,0 +1,45 @@
+
+#container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: linear-gradient(to bottom, rgb(150, 202, 252) 5%, rgb(91, 114, 243) 50%);
+    align-items: center;
+}
+
+#input_pokemon{
+    width: 40%;
+    height: 30px;
+    border-radius: 10px;
+    font-size: x-large;
+    padding-left: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#button_search{
+    width: 20%;
+    height: 30px;
+    border-radius: 9px ;
+    margin-top: 15px;
+    font-size: larger;
+    background-color: rgb(199, 228, 255);
+
+}
+
+#country-information{
+    width: 60%;
+    height: 700px;
+    background-color: aliceblue;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 9px;
+}
+
+#show-info{
+    width: 80%;
+    height: 80%;
+
+}
+
